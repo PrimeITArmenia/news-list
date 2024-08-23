@@ -1,0 +1,154 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Termina Test";
+    src: url("./fonts/Termina-Regular.eot");
+    src: url("./fonts/Termina-Regular.eot?#iefix") format("embedded-opentype"),
+      url("./fonts/Termina-Regular.woff2") format("woff2"),
+      url("./fonts/Termina-Regular.woff") format("woff"),
+      url("./fonts/Termina-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+}
+
+@layer base {
+  @font-face {
+    font-family: "Termina Test";
+    src: url("./fonts/Termina-Bold.eot");
+    src: url("./fonts/Termina-Bold.eot?#iefix") format("embedded-opentype"),
+      url("./fonts/Termina-Bold.woff2") format("woff2"),
+      url("./fonts/Termina-Bold.woff") format("woff"),
+      url("./fonts/Termina-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+}
+@layer base {
+  @font-face {
+    font-family: "Termina Test Demi";
+    src: url("./fonts/Termina-Demi.eot");
+    src: url("./fonts/Termina-Demi.eot?#iefix") format("embedded-opentype"),
+      url("./fonts/Termina-Demi.woff2") format("woff2"),
+      url("./fonts/Termina-Demi.woff") format("woff"),
+      url("./fonts/Termina-Demi.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+}
+@layer base {
+  @font-face {
+    font-family: "Termina Test";
+    src: url("./fonts/Termina-Medium.eot");
+    src: url("./fonts/Termina-Medium.eot?#iefix") format("embedded-opentype"),
+      url("./fonts/Termina-Medium.woff2") format("woff2"),
+      url("./fonts/Termina-Medium.woff") format("woff"),
+      url("./fonts/Termina-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+}
+@layer base {
+  @font-face {
+    font-family: "Termina Test";
+    src: url("./fonts/Termina-Black.eot");
+    src: url("./fonts/Termina-Black.eot?#iefix") format("embedded-opentype"),
+      url("./fonts/Termina-Black.woff2") format("woff2"),
+      url("./fonts/Termina-Black.woff") format("woff"),
+      url("./fonts/Termina-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+  }
+}
+@layer base {
+  @font-face {
+    font-family: "Termina Test";
+    src: url("./fonts/Termina-Thin.eot");
+    src: url("./fonts/Termina-Thin.eot?#iefix") format("embedded-opentype"),
+      url("./fonts/Termina-Thin.woff2") format("woff2"),
+      url("./fonts/Termina-Thin.woff") format("woff"),
+      url("./fonts/Termina-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+  }
+}
+@layer base {
+  @font-face {
+    font-family: "Termina Test";
+    src: url("./fonts/Termina-Light.eot");
+    src: url("./fonts/Termina-Light.eot?#iefix") format("embedded-opentype"),
+      url("./fonts/Termina-Light.woff2") format("woff2"),
+      url("./fonts/Termina-Light.woff") format("woff"),
+      url("./fonts/Termina-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+}
+@layer base {
+  @font-face {
+    font-family: "Termina Test";
+    src: url("./fonts/Termina-Heavy.eot");
+    src: url("./fonts/Termina-Heavy.eot?#iefix") format("embedded-opentype"),
+      url("./fonts/Termina-Heavy.woff2") format("woff2"),
+      url("./fonts/Termina-Heavy.woff") format("woff"),
+      url("./fonts/Termina-Heavy.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+  }
+}
+@layer base {
+  @font-face {
+    font-family: "Termina Test Extra";
+    src: url("./fonts/Termina-ExtraLight.eot");
+    src: url("./fonts/Termina-ExtraLight.eot?#iefix")
+        format("embedded-opentype"),
+      url("./fonts/Termina-ExtraLight.woff2") format("woff2"),
+      url("./fonts/Termina-ExtraLight.woff") format("woff"),
+      url("./fonts/Termina-ExtraLight.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+  }
+}
+
+
+body {
+  background: #000000;
+  font-family: "Termina Test Extra", sans-serif;
+  color: white;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+
+
+.custom-scr::-webkit-scrollbar {
+  width: 8px;
+  height: 40px;
+  border-radius: 80%;
+  color: #1d4ed8;
+}
+.custom-scr::-webkit-scrollbar-track {
+  border-radius: 50%;
+  background-color: none;
+}
+.custom-scr::-webkit-scrollbar-thumb {
+  background: #253840;
+  border-radius: 16px;
+  max-height: 80px;
+}
